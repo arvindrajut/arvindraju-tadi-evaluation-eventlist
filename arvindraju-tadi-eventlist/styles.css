@@ -40,12 +40,12 @@ button {
     border: none;
 }
 
-.edit .save {
+.edit, .save {
     background-color: #008cba;
     color: white;
 }
 
-.delete .cancel .discard {
+.delete, .cancel, .discard {
     background-color: #c94c4c;
     color: white;
 }
