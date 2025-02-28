@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.event-list-app {
+    width: 60%;
+    margin: auto;
+
+}
+
+table {
+    width: 100%;
+}
+
+.table {
+    padding: 30px;
+    border: 1px solid #ddd;
+}
+
+td {
+    background-color: #e6e2d3;
+}
+
+td input {
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.edit,
+.delete,
+.save,
+.cancel,
+.discard {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.edit .save {
+    background-color: #008cba;
+    color: white;
+}
+
+.delete .cancel .discard {
+    background-color: #c94c4c;
+    color: white;
+}
+
+
+#add-event-btn {
+    background-color: #008cba;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
